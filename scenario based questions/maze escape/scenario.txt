@@ -1,0 +1,12 @@
+scenario:
+	Let us implement Rat in a MAZE as example problem that can be solved using a Stack. A Maze
+is given as N*N binary matrix of blocks where source block is the upper left most block i.e.,
+maze[0][0] and destination block is lower rightmost block i.e., maze[N-1][N-1]. A rat starts from
+source and has to reach destination. The rat can move in four directions: back, forward, up and
+down.
+In the maze matrix, 0 means the block is dead end and 1 means the block can be used in the path
+from source to destination. Visited path (visited index) should be marked as -1. Note that this is a
+simple version of the typical Maze problem. For example, a more complex version can be with
+limited number of moves.
+All inputs and outputs will be done using filing. Input file name will be input.txt and output will
+be in output.txt.
