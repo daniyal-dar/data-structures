@@ -23,6 +23,12 @@ public:
 	void push(const T value);		// add values in stack 
 	T pop();						// removes recent added value from stack
 	void display();					// displays stack
+
+	//-------------------------------------------------------------------------
+	// operator overloading is not necessory but it helps to simplify code 
+	// while dealing with scenario based questions
+	template <class T>
+	friend ostream& operator<<(ostream& output, const Stack<T>& obj);
 };
 
 template<class  T>
@@ -34,7 +40,7 @@ Stack<T>::Stack(const int size)
 }
 
 template<class T>
-Stack<T>::~Stack() 
+Stack<T>::~Stack()
 {
 	delete[] data;
 	data = nullptr;
@@ -94,3 +100,11 @@ void Stack<T>::display()
 		cout << i + 1 << ". " << this->data[i] << endl;
 }
 
+
+template<class  T>
+ostream& operator<<(ostream& output, const Stack<T>& obj)
+{
+	for (int i = 0;i < obj.current_size;i++)
+		output << obj.data[i] << " ";
+	return output;
+}
