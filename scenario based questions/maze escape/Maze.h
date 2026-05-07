@@ -1,6 +1,6 @@
 #pragma once
 
-// #include"Stack.h"
+
 #include"stack-array.h"
 #include<fstream>
 #include<iostream>
