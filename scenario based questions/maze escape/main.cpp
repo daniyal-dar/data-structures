@@ -1,4 +1,5 @@
-
+// note* before compiling this code download and paste the stack-array
+// header file in the same directory as this file
 
 #include"Maze.h"
 
