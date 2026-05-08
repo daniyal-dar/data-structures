@@ -23,7 +23,8 @@ Use the links below to jump to specific File:
 | Title | Concept | Category |
 | :--- | :--- | :--- |
 | [Maze-Escape](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/maze%20escape)| Stack | Scenario based Question|
-| [infix to pre and post fix conversion](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/infix%20conversion.cpp) | Stack | Practice Questions |
+| [Infix to pre and post fix conversion](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/infix%20conversion.cpp) | Stack | Practice Questions |
+| [Reverse Stack](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/reverse%20stack.cpp) | Stack | Practice Questions |
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
