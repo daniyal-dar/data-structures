@@ -1,0 +1,28 @@
+# **Data Structures in C++**
+This repository contains robust implementations of fundamental data structures in C++, along with solutions to real-world scenario problems and practice questions curated from various competitive programming platforms and academic sources.
+
+## 🚀 Quick Navigation
+Use the links below to jump to specific File:
+-[**Stack** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/stack-array.h)
+-[**Stack** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/Stack-linkedList.h)
+-[Shifted **Queue** uisng Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueShifted-array.h)
+-[Circular **Queue** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueCircular-array.h)
+-[**Queue** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queue-linkedList.h)
+-[Singly **Linked List** using head pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListHeadPTROnly-singly.h)
+-[Singly circular **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListTailPTRonly-singly.h)
+-[Singly **Linked LIst** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedList-singly.h)
+-[Doubly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
+
+## 🤝 How to Contribute
+Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
+1. **Fork** the repository.
+2. **Create** a new branch (`git checkout -b feature-new-solution`).
+3. **Commit** your changes (`git commit -m 'Add new DS solution'`).
+4. **Push** to the branch (`git push origin feature-new-solution`).
+5. Open a **Pull Request**.
+
+## 🐛 Bug Reporting
+If there is any bug supported, please report it! You can do this by:
+1. Navigating to the **Issues** tab.
+2. Clicking on **New Issue**.
+3. Describing the bug and providing the code snippet where it occurs.
