@@ -3,15 +3,18 @@ This repository contains robust implementations of fundamental data structures i
 
 ## 🚀 Quick Navigation
 Use the links below to jump to specific File:
--[**Stack** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/stack-array.h)
--[**Stack** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/Stack-linkedList.h)
--[Shifted **Queue** uisng Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueShifted-array.h)
--[Circular **Queue** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueCircular-array.h)
--[**Queue** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queue-linkedList.h)
--[Singly **Linked List** using head pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListHeadPTROnly-singly.h)
--[Singly circular **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListTailPTRonly-singly.h)
--[Singly **Linked LIst** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedList-singly.h)
--[Doubly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
+
+### 🛠 Implementations
+*Core data structures implemented from scratch.*
+- [**Stack** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/stack-array.h)
+- [**Stack** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/Stack-linkedList.h)
+- [Shifted **Queue** uisng Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueShifted-array.h)
+- [Circular **Queue** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueCircular-array.h)
+- [**Queue** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queue-linkedList.h)
+- [Singly **Linked List** using head pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListHeadPTROnly-singly.h)
+- [Singly circular **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListTailPTRonly-singly.h)
+- [Singly **Linked LIst** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedList-singly.h)
+- [Doubly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
