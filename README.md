@@ -39,4 +39,4 @@ If there is any bug supported, please report it! You can do this by:
 2. Clicking on **New Issue**.
 3. Describing the bug and providing the code snippet where it occurs.
 
-** Happy Coding! **
+### **Happy Coding!**
