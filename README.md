@@ -1,12 +1,12 @@
 # **Data Structures in C++**
 This repository contains robust implementations of fundamental data structures in C++, along with solutions to real-world scenario problems and practice questions curated from various competitive programming platforms and academic sources.
 
-**Note:** Problem solutions do not include the full data structure implementations. To run them, you must download the required header files from the [Implementations](#🛠-Implementations) section or folder and save them in the same directory as the solution file. The solutions are pre-linked to these files via #include statements.
+**Note:** Problem solutions do not include the full data structure implementations. To run them, you must download the required header files from the [Implementations](#implementations-section) section or folder and save them in the same directory as the solution file. The solutions are pre-linked to these files via #include statements.
 
 ## 🚀 Quick Navigation
 Use the links below to jump to specific File:
 
-
+<a id="implementations-section"></a>
 ### 🛠 Implementations
 *Core data structures implemented from scratch.*
 - [**Stack** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/stack-array.h)
