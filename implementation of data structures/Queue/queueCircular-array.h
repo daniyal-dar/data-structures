@@ -13,7 +13,7 @@ private:
 	T* data;			// pointer to dynamic array
 	int current_size;	// holds the count of elements stored in array
 	int max_size;		// holds the size of array
-	
+
 	int rear;			// index of last element in queue
 	int front;			// index of first element in queue
 
@@ -26,6 +26,9 @@ public:
 	bool isFull();				// check is queue full
 	T peek();					// returns the first value stored in queue
 	void display();				// displays queue
+
+	// this function is not necessary to be implemented, but it is useful for Queue manipulation
+	int showCurrent_size();		// returns the current size of the queue
 };
 
 template<class T>
@@ -40,7 +43,7 @@ Queue<T>::Queue(int size)
 }
 
 template<class T>
-Queue<T>::~Queue() 
+Queue<T>::~Queue()
 {
 	delete[] data;
 	data = nullptr;
@@ -56,7 +59,7 @@ void Queue<T>::enqueue(T value)
 		this->data[rear] = value;
 		rear = (rear + 1) % max_size;
 		this->current_size++;
-	}		
+	}
 }
 
 template<class T>
@@ -104,10 +107,15 @@ void Queue<T>::display()
 		<< "Rear = " << this->rear << endl;
 
 	for (int i = 0; i < this->current_size; i++)
-    {
-        int index = (this->front + i) % this->max_size;
-        cout << i + 1 << ". " << this->data[index] << endl;
-    }
+	{
+		int index = (this->front + i) % this->max_size;
+		cout << i + 1 << ". " << this->data[index] << endl;
+	}
 }
 
 
+template<class T>
+int Queue<T>::showCurrent_size()
+{
+		return this->current_size;
+}
