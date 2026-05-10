@@ -1,58 +1,54 @@
 /**
- * @file BinarySearch.cpp
- * @brief Template implementation of the Binary Search algorithm.
- * * Note: This algorithm requires the input array to be sorted in ascending order.
+ * @file BubbleSort.cpp
+ * @brief Template implementation of the Bubble Sort algorithm.
+ * * Bubble sort works by repeatedly stepping through the list, comparing 
+ * adjacent elements and swapping them if they are in the wrong order.
  */
 
 #include <iostream>
 using namespace std;
 
 /**
- * @brief Performs a Binary Search on a sorted, fixed-size array.
- * * This implementation utilizes template argument deduction to handle various 
- * data types and retrieve the array size 'n' automatically at compile time.
+ * @brief Sorts a fixed-size array using the optimized Bubble Sort algorithm.
+ * * This implementation utilizes a 'swapped' flag to optimize the best-case 
+ * scenario. If no elements are swapped during a pass, the array is already 
+ * sorted, and the function terminates early.
  * * @tparam T The data type of the array elements (must support comparison operators).
  * @tparam n The size of the array, deduced by the compiler via reference.
- * @param arr A reference to the sorted array to be searched.
- * @param key The target value to locate.
- * @return int The index of the key if found; otherwise -1.
+ * @param arr A reference to the array to be sorted.
  */
-template <typename T, std::size_t n>
-int binarySearch(T (&arr)[n], T key)
+template <typename T, size_t n>
+void bubbleSort(T (&arr)[n])
 {
-    int low = 0;
-    int high = n - 1;
-    int mid;
-
-    while (low <= high)
+    bool swapped;
+    // Outer loop for number of passes
+    for (size_t i = 0; i < n - 1; i++)
     {
-        // Calculate the middle index
-        mid = (low + high) / 2;
+        swapped = false;
+        // Inner loop for comparing adjacent elements
+        for (size_t j = 0; j < n - i - 1; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                swap(arr[j], arr[arr[j + 1]]);
+                swapped = true; // Mark that a swap occurred
+            }
+        }
 
-        // Check if the key is present at mid
-        if (arr[mid] == key)
+        // Optimization: If no two elements were swapped, array is sorted
+        if (!swapped)
         {
-            return mid;
-        }
-        // If key is greater, ignore the left half
-        else if (arr[mid] < key)
-        {
-            low = mid + 1;
-        }
-        // If key is smaller, ignore the right half
-        else
-        {
-            high = mid - 1;
+            break;
         }
     }
-
-    // Target element was not found in the array
-    return -1;
 }
 
 /**
  * Technical Implementation Details:
- * 1. Passing by reference 'T (&arr)[n]' ensures O(1) space for parameter passing.
- * 2. Time Complexity: O(log n).
- * 3. Space Complexity: O(1) for iterative approach.
+ * 1. Pass-by-reference 'T (&arr)[n]' allows the compiler to handle size deduction.
+ * 2. Time Complexity: 
+ * - Best Case: O(n) (when array is already sorted).
+ * - Average/Worst Case: O(n^2).
+ * 3. Space Complexity: O(1) as it is an in-place sorting algorithm.
+ * 4. Stability: Bubble Sort is a stable sorting algorithm.
  */
