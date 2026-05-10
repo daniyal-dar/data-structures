@@ -6,7 +6,7 @@ This repository contains robust implementations of fundamental data structures i
 ## 🚀 Quick Navigation
 Use the links below to jump to specific File:
 
-### 🚀 Algorithms
+### 🔍 Algorithms
 - [**Linear search**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/linear-search.cpp)
 - [**Binary Search**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/binary-search.cpp)
 - [**Bubble Sorting**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/bubble-sorting.cpp)
