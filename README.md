@@ -48,7 +48,8 @@ Use the links below to jump to specific files:
 | [Multiplayer board game implementation](scenario%20based%20questions/multiplayer%20boardGame%20implementation) | Implement the simple game mechanics using doublyLL (based on both pointers) | Scenario based Question |
 | [Song playlist manager](scenario%20based%20questions/song%20playlist%20manager) | Implement the song playlist manager using DoublyLL (based on both pointers) | Scenario based Question |
 | [Movie watchList manager](scenario%20based%20questions/watchList%20manager) | Implement the movie watchlist manager using DoublyLL (based on both pointers) | Scenario based Question |
-| [] |  |  |
+| [DeleteNode in O1](practice%20problems/delete_node_constant_time.cpp) | code a global function which removes node from the linked list in O1 time complexity | Practice problem |
+| [PalindromeList using stack](practice%20problems/palindrome_usingLL_and%20_stack.cpp) | code a global function which finds the LL is palindrome uising stack and given LL | Practice problem |
 
 #### 🔄 Recursion Problems
 | Problem Link | Description | Category |
