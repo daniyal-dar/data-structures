@@ -38,7 +38,8 @@ Use the links below to jump to specific File:
 | [Palindrome recursively](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/Palindrome-rec.cpp) | Recursion |  Practice Questions |
 | [LCM of numbers](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/LCM%20of%20numbers%20-rec.cpp) | Recursion |  Practice Questions |
 | [Factorial](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/Factorial-rec.cpp) | Recursion |  Practice Questions |
-
+| [StairsClimb](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/climbStairs-rec.cpp) | Recursion | Scenario based Questons|
+| [Maze escape recursively](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/mazeEscape-rec.cpp) | Recursion | Scenario based Questions|
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
