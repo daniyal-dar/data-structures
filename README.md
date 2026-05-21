@@ -25,7 +25,7 @@ Use the links below to jump to specific File:
 - [Singly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedList-singly.h)
 - [Doubly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
 - [Doubly **Linked List** using head pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListHeadPTROnly-doubly.h)
-- [Doubly **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListTailPTRonly-doubly.h)
+- [Doubly circular **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListTailPTRonly-doubly.h)
 
 ### 🧩 Problems
 
