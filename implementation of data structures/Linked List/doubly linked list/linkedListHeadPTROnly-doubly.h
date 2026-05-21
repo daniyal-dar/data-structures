@@ -1,39 +1,38 @@
-
-
-
 // this header file contains the generic implementation of the 
-// singly linked list using head ptr only
+// doubly linked list using head ptr only (non-circular)
 
 #pragma once
 #include <iostream>
 using namespace std;
 
 template <class T>
-struct node {
+struct node 
+{
     T data;
     node<T>* next;
+    node<T>* prev;
 };
 
 template<class T>
 class LinkedList
 {
 public:
-    node<T>* head;      // pointer points to the 
+    node<T>* head; // pointer points to the first node
 
 public:
-
     // ---------- essential functions ---------------
     LinkedList();               // default constructor
     ~LinkedList();              // destructor
     bool isEmpty();             // check is linked list empty
     void insertAtHead(T v);     // insert value at the start of the list
     T deleteFromHead();         // delete value from the start of the list
-    void display();             // displays linked list
-    
+    void display();             // displays linked list forward
+    void displayReverse();      // displays linked list backward to test prev pointers
+
     // ---------- other functions -------------------
-    void insertSorted(T value);     // values adding in accending order
-    bool searchByValue(T value);    // return the index of the given element
-    bool deleteByValue(T value);    // deletes the nodes of given element
+    void insertSorted(T value);  // values adding in ascending order
+    bool searchByValue(T value); // return true if element found
+    bool deleteByValue(T value); // deletes the nodes of given element
 };
 
 template<class T>
@@ -43,7 +42,7 @@ template<class T>
 LinkedList<T>::~LinkedList()
 {
     if (isEmpty())
-            return; 
+        return;
 
     node<T>* current = head;
     node<T>* nextNode = nullptr;
@@ -54,6 +53,8 @@ LinkedList<T>::~LinkedList()
         delete current;           // Delete the current node
         current = nextNode;       // Move to the next node
     }
+    current = nullptr;
+	nextNode = nullptr;
     head = nullptr;
 }
 
@@ -64,18 +65,21 @@ template<class T>
 void LinkedList<T>::insertAtHead(T v)
 {
     node<T>* nn = new node<T>;
-    nn->next = nullptr;
     nn->data = v;
+    nn->next = nullptr;
+    nn->prev = nullptr;
 
-    if (head == nullptr)    // case 01: empty LL
+    if (isEmpty()) // case 01: empty LL
+    {
         head = nn;
-    else                    // case 02: not empty LL 
+    }
+    else           // case 02: not empty LL 
     {
         nn->next = head;
+        head->prev = nn;
         head = nn;
     }
 }
-
 
 template<class T>
 T LinkedList<T>::deleteFromHead()
@@ -85,60 +89,65 @@ T LinkedList<T>::deleteFromHead()
         cout << "List is empty! operation terminated." << endl;
         return T();
     }
-    else if (head->next == nullptr)
+
+    T returnValue = head->data;
+    node<T>* temp = head;
+
+    if (head->next == nullptr) // case 01: Only one node in the list
     {
-        T rv = head->data;
-        delete head;
         head = nullptr;
-        return rv;
     }
-    else
+    else                       // case 02: Multiple nodes
     {
-        T rv = head->data;
-        node<T>* t = head;
         head = head->next;
-        delete t;
-        t = nullptr;
-        return rv;
+        head->prev = nullptr;
     }
+
+    delete temp;
+    return returnValue;
 }
 
-// values adding in accending order
 template<class T>
 void LinkedList<T>::insertSorted(T value)
 {
     node<T>* nn = new node<T>;
     nn->data = value;
     nn->next = nullptr;
+    nn->prev = nullptr;
 
     if (isEmpty())                   // case 01: empty LinkedList
+    {
         head = nn;
-
-    else if (value <= head->data)   // case 02: single node 
+    }
+    else if (value <= head->data)   // case 02: inserting before the head 
     {
         nn->next = head;
+        head->prev = nn;
         head = nn;
-        return;
     }
-
-    else                            // case 03: multiple node 
+    else                            // case 03: inserting middle or end
     {
-        node<T>* t = head;
-        while (t != nullptr)
+        node<T>* temp = head;
+        while (temp != nullptr)
         {
-            if (t->next == nullptr)
+            // subCase 01: reach the end of the list (insert at tail)
+            if (temp->next == nullptr)
             {
-                t->next = nn;
+                temp->next = nn;
+                nn->prev = temp;
                 break;
             }
-            if (value >= t->data && value < t->next->data)
+            // subCase 02: reach the correct sorted position (insert in middle)
+            if (value >= temp->data && value < temp->next->data)
             {
-                nn->next = t->next;
-                t->next = nn;
+                nn->next = temp->next;
+                nn->prev = temp;
+                temp->next->prev = nn;
+                temp->next = nn;
                 break;
             }
 
-            t = t->next;
+            temp = temp->next;
         }
     }
 }
@@ -166,27 +175,29 @@ bool LinkedList<T>::deleteByValue(T value)
     if (isEmpty())
         return false;
 
-    // Case 1: The value is at the Head
+    // Case 01: The value is at the Head
     if (head->data == value)
     {
         deleteFromHead();
         return true;
     }
 
-    // Case 2: The value is somewhere else
+    // Case 02: The value is somewhere else
     node<T>* temp = head;
-    node<T>* prev = nullptr;
 
     while (temp != nullptr)
     {
         if (temp->data == value)
         {
-            prev->next = temp->next;
+            temp->prev->next = temp->next;
+
+            // if its not the last node, update next nodes prev pointer
+            if (temp->next != nullptr)
+                temp->next->prev = temp->prev;
+
             delete temp;
-            temp = nullptr;
             return true;
         }
-        prev = temp;
         temp = temp->next;
     }
 
@@ -198,11 +209,34 @@ template<class T>
 void LinkedList<T>::display()
 {
     node<T>* temp = head;
-    int count = 1;
+	int count = 1;    
     while (temp != nullptr)
     {
         cout << count << ". " << temp->data << endl;
         temp = temp->next;
         count++;
+    }
+}
+
+template<class T>
+void LinkedList<T>::displayReverse()
+{
+    if (isEmpty()) return;
+
+    // Traversing to the end of the list
+    node<T>* temp = head;
+    while (temp->next != nullptr)
+    {
+        temp = temp->next;
+    }
+
+    // Traversing backward using prev pointers
+    cout << "Displaying Reverse" << endl;
+	int count = 1;
+    while (temp != nullptr)
+    {
+        cout << count << ". " << temp->data << endl;
+        temp = temp->prev;
+		count++;   
     }
 }
