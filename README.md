@@ -4,61 +4,61 @@ This repository contains robust implementations of fundamental data structures i
 **Note:** Problem solutions do not include the full data structure implementations. To run them, you must download the required header files from the [Implementations](#implementations-section) section or folder and save them in the same directory as the solution file. The solutions are pre-linked to these files via #include statements.
 
 ## 🚀 Quick Navigation
-Use the links below to jump to specific File:
+Use the links below to jump to specific files:
 
 ### 🔍 Algorithms
-- [**Linear search**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/linear-search.cpp)
-- [**Binary Search**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/binary-search.cpp)
-- [**Bubble Sorting**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/bubble-sorting.cpp)
-- [**Selection Sorting**](https://github.com/daniyal-dar/data-structures/blob/main/algorithms/selection-sorting.cpp)
+- [**Linear search**](algorithms/linear-search.cpp)
+- [**Binary Search**](algorithms/binary-search.cpp)
+- [**Bubble Sorting**](algorithms/bubble-sorting.cpp)
+- [**Selection Sorting**](algorithms/selection-sorting.cpp)
 
 <a id="implementations-section"></a>
 ### 🛠 Implementations
 *Core data structures implemented from scratch.*
-- [**Stack** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/stack-array.h)
-- [**Stack** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Stack/Stack-linkedList.h)
-- [Shifted **Queue** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueShifted-array.h)
-- [Circular **Queue** using Array](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queueCircular-array.h)
-- [**Queue** using linked list](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Queue/queue-linkedList.h)
-- [Singly **Linked List** using head pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListHeadPTROnly-singly.h)
-- [Singly circular **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListTailPTRonly-singly.h)
-- [Singly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedList-singly.h)
-- [Doubly **Linked List** using both head and tail pointer](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
-- [Doubly **Linked List** using head pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListHeadPTROnly-doubly.h)
-- [Doubly circular **Linked List** using tail pointer only](https://github.com/daniyal-dar/data-structures/blob/main/implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListTailPTRonly-doubly.h)
+- [**Stack** using Array](implementation%20of%20data%20structures/Stack/stack-array.h)
+- [**Stack** using linked list](implementation%20of%20data%20structures/Stack/Stack-linkedList.h)
+- [Shifted **Queue** using Array](implementation%20of%20data%20structures/Queue/queueShifted-array.h)
+- [Circular **Queue** using Array](implementation%20of%20data%20structures/Queue/queueCircular-array.h)
+- [**Queue** using linked list](implementation%20of%20data%20structures/Queue/queue-linkedList.h)
+- [Singly **Linked List** using head pointer only](implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListHeadPTROnly-singly.h)
+- [Singly circular **Linked List** using tail pointer only](implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedListTailPTRonly-singly.h)
+- [Singly **Linked List** using both head and tail pointer](implementation%20of%20data%20structures/Linked%20List/singly%20linked%20list/linkedList-singly.h)
+- [Doubly **Linked List** using both head and tail pointer](implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
+- [Doubly **Linked List** using head pointer only](implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListHeadPTROnly-doubly.h)
+- [Doubly circular **Linked List** using tail pointer only](implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListTailPTRonly-doubly.h)
 
 ### 🧩 Problems
 
 #### 📚 Stack Problems
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
-| [Maze-Escape](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/maze%20escape) | Find a path out of a grid-based maze | Scenario based Question |
-| [Next greater element](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/next_greater_element.cpp) | Find the first greater element to the right for each array element | Scenario based Question |
-| [Infix to pre and post fix conversion](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/infix%20conversion.cpp) | Convert standard infix expressions to prefix and postfix notations | Practice Questions |
-| [Reverse Stack](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/reverse%20stack.cpp) | Reverse the elements of a stack using recursion or auxiliary space | Practice Questions |
+| [Maze-Escape](scenario%20based%20questions/maze%20escape) | Find a path out of a grid-based maze | Scenario based Question |
+| [Next greater element](scenario%20based%20questions/next_greater_element.cpp) | Find the first greater element to the right for each array element | Scenario based Question |
+| [Infix to pre and post fix conversion](practice%20problems/infix%20conversion.cpp) | Convert standard infix expressions to prefix and postfix notations | Practice Questions |
+| [Reverse Stack](practice%20problems/reverse%20stack.cpp) | Reverse the elements of a stack using recursion or auxiliary space | Practice Questions |
 
 #### 👥 Queue Problems
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
-| [TotalSum of min+max in SlidingWindow](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/sliding_window_min_max.cpp) | Calculate the sum of minimum and maximum elements in every subarray of size k | Scenario based Question |
+| [TotalSum of min+max in SlidingWindow](scenario%20based%20questions/sliding_window_min_max.cpp) | Calculate the sum of minimum and maximum elements in every subarray of size k | Scenario based Question |
 
 #### 🔗 Linked List Problems
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
-| [Multiplayer board game implementation](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/multiplayer%20boardGame%20implementation) | implement the simple game mechanics using doublyLL (based on both pointers) | Scenario based Question |
-| [Song playlist manager](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/song%20playlist%20manager) | implement the song playlist manager using DoublyLL (based on both pointers) | Scenario based Question |
-| [Moview watchList manager](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/watchList%20manager) | implement the movie watchlist manager using DoublyLL (based on both pointers)  | Scenario based Question |
+| [Multiplayer board game implementation](scenario%20based%20questions/multiplayer%20boardGame%20implementation) | Implement the simple game mechanics using doublyLL (based on both pointers) | Scenario based Question |
+| [Song playlist manager](scenario%20based%20questions/song%20playlist%20manager) | Implement the song playlist manager using DoublyLL (based on both pointers) | Scenario based Question |
+| [Movie watchList manager](scenario%20based%20questions/watchList%20manager) | Implement the movie watchlist manager using DoublyLL (based on both pointers) | Scenario based Question |
 
 #### 🔄 Recursion Problems
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
-| [String reverse recursively](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/StringReverse-rec.cpp) | Reverse a string without using loops | Practice Question |
-| [Palindrome recursively](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/Palindrome-rec.cpp) | Check if a string reads the same backward as forward using recursion | Practice Questions |
-| [LCM of numbers](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/LCM%20of%20numbers%20-rec.cpp) | Find the Least Common Multiple of an array of numbers recursively | Practice Questions |
-| [Factorial](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/Factorial-rec.cpp) | Compute the factorial of a given number using a recursive base case | Practice Questions |
-| [StairsClimb](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/climbStairs-rec.cpp) | Count the distinct ways to reach the top of a staircase | Scenario based Questions |
-| [Maze escape recursively](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/mazeEscape-rec.cpp) | Solve a maze problem pathfinder logic using recursion back-tracking | Scenario based Questions |
-| [Print LinkedList recursively](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/printLinkedList-rec.cpp) | Traverse and display linked list elements using recursive calls | Practice Question |
+| [String reverse recursively](practice%20problems/StringReverse-rec.cpp) | Reverse a string without using loops | Practice Question |
+| [Palindrome recursively](practice%20problems/Palindrome-rec.cpp) | Check if a string reads the same backward as forward using recursion | Practice Questions |
+| [LCM of numbers](practice%20problems/LCM%20of%20numbers%20-rec.cpp) | Find the Least Common Multiple of an array of numbers recursively | Practice Questions |
+| [Factorial](practice%20problems/Factorial-rec.cpp) | Compute the factorial of a given number using a recursive base case | Practice Questions |
+| [StairsClimb](scenario%20based%20questions/climbStairs-rec.cpp) | Count the distinct ways to reach the top of a staircase | Scenario based Questions |
+| [Maze escape recursively](scenario%20based%20questions/mazeEscape-rec.cpp) | Solve a maze problem pathfinder logic using recursion back-tracking | Scenario based Questions |
+| [Print LinkedList recursively](practice%20problems/printLinkedList-rec.cpp) | Traverse and display linked list elements using recursive calls | Practice Question |
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
