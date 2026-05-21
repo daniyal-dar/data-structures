@@ -32,6 +32,7 @@ public:
     T deleteFromTail();             // removes value from the end of the list
     void display();                 // displays linked list
     bool isEmpty();                 // check is linked list empty
+	void reverseLL();               // reverse the linked list
 
     // ---------- other functions --------------------
     bool insertAtPosition(T value, int index);     // insert new node at the given index
@@ -321,7 +322,7 @@ bool LinkedList<T>::deleteFromPosition(int index)
                     temp->next->prev = temp->prev;
                 else
                     tail = temp->prev;
-                
+
                 temp->next = nullptr;
                 temp->prev = nullptr;
                 delete temp;
@@ -372,4 +373,24 @@ bool LinkedList<T>::deleteByValue(T value)
     return false;
 }
 
+template <class T>
+void LinkedList<T>::reverseLL() 
+{
+    if (isEmpty() || head == tail) return;
 
+    node<T>* curr = head;
+    node<T>* temp = nullptr;
+
+    while (curr != nullptr) 
+    {
+        temp = curr->prev;
+        curr->prev = curr->next;
+        curr->next = temp;
+
+        curr = curr->prev;
+    }
+
+    temp = head;
+    head = tail;
+    tail = temp;
+}
