@@ -45,7 +45,9 @@ Use the links below to jump to specific File:
 #### 🔗 Linked List Problems
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
-
+| [Multiplayer board game implementation](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/multiplayer%20boardGame%20implementation) | implement the simple game mechanics using doublyLL (based on both pointers) | Scenario based Question |
+| [Song playlist manager](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/song%20playlist%20manager) | implement the song playlist manager using DoublyLL (based on both pointers) | Scenario based Question |
+| [Moview watchList manager](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/watchList%20manager) | implement the movie watchlist manager using DoublyLL (based on both pointers)  | Scenario based Question |
 
 #### 🔄 Recursion Problems
 | Problem Link | Description | Category |
