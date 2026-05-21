@@ -29,9 +29,9 @@ Use the links below to jump to specific File:
 | Title | Concept | Category |
 | :--- | :--- | :--- |
 | [Maze-Escape](https://github.com/daniyal-dar/data-structures/tree/main/scenario%20based%20questions/maze%20escape)| Stack | Scenario based Question|
+| [Next greater element](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/next_greater_element.cpp)| Stack | Scenario based Question |
 | [Infix to pre and post fix conversion](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/infix%20conversion.cpp) | Stack | Practice Questions |
 | [Reverse Stack](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/reverse%20stack.cpp) | Stack | Practice Questions |
-| [Next greater element](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/next_greater_element.cpp)| Stack | Scenario based Question |
 | [TotalSum of min+max in SlidingWindow](https://github.com/daniyal-dar/data-structures/blob/main/scenario%20based%20questions/sliding_window_min_max.cpp)| Queue | Scenario based Question |
 | [Print LinkedList recursively](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/printLinkedList-rec.cpp) | Recursion | Practice Question |
 | [String reverse recursively](https://github.com/daniyal-dar/data-structures/blob/main/practice%20problems/StringReverse-rec.cpp) | Recursion | Practice Question |
