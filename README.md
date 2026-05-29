@@ -26,6 +26,7 @@ Use the links below to jump to specific files:
 - [Doubly **Linked List** using both head and tail pointer](implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedList-doubly.h)
 - [Doubly **Linked List** using head pointer only](implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListHeadPTROnly-doubly.h)
 - [Doubly circular **Linked List** using tail pointer only](implementation%20of%20data%20structures/Linked%20List/doubly%20linked%20list/linkedListTailPTRonly-doubly.h)
+- [Binary Search **Tree**](implementation%20of%20data%20structures/Trees/BST/BST.h)
 
 ### 🧩 Problems
 
