@@ -1,3 +1,30 @@
+/*
+ * ======================================================================================
+ * PROBLEM SCENARIO: Reverse Nodes in k-Group (Singly Linked List)
+ * ======================================================================================
+ * Description:
+ * Given a singly linked list, reverse the nodes of the list 'k' at a time and return 
+ * the modified list. 'k' is a positive integer and is less than or equal to the length 
+ * of the linked list. 
+ *
+ * Constraints & Instructions:
+ * 1. If the number of nodes left is smaller than 'k', leave them as they are in their
+ * original order.
+ * 2. You must modify the actual pointer links (`next`) of the nodes directly.
+ * Do not modify or swap the data values inside the nodes.
+ * 3. Only constant extra memory ($O(1)$ auxiliary space) is allowed.
+ *
+ * Example (with k = 2):
+ * Input:  1 -> 2 -> 3 -> 4 -> 5
+ * Output: 2 -> 1 -> 4 -> 3 -> 5
+ *
+ * Example (with k = 3):
+ * Input:  1 -> 2 -> 3 -> 4 -> 5
+ * Output: 3 -> 2 -> 1 -> 4 -> 5
+ * ======================================================================================
+ */
+
+
 #include "linkedList-singly.h"
 #include <iostream>
 using namespace std;
