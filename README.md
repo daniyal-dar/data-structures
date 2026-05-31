@@ -63,6 +63,13 @@ Use the links below to jump to specific files:
 | [StairsClimb](scenario%20based%20questions/climbStairs-rec.cpp) | Count the distinct ways to reach the top of a staircase | Scenario based Questions |
 | [Maze escape recursively](scenario%20based%20questions/mazeEscape-rec.cpp) | Solve a maze problem pathfinder logic using recursion back-tracking | Scenario based Questions |
 | [Print LinkedList recursively](practice%20problems/printLinkedList-rec.cpp) | Traverse and display linked list elements using recursive calls | Practice Question |
+| [CountDigits](practice%20problems/countDigits.cpp) | count the number of digits present in the value | Practice Questions |
+| [Fibonacci sequence](practice%20problems/fibonacci%20series.cpp) | Function which finds sequence till n terms | Practice Questions |
+| [Integer to binary conversion](practice%20problems/int%20to%20binary%20conversion.cpp) | convert integer value into binary |  Practice Questions |
+| [Reverse of given numeber](practice%20problems/reverse%20of%20number.cpp) | Find the reverse of the given number | Practice Questions |
+| [Sum of entred number](practice%20problems/sum%20of%20entred%20number.cpp) | find the sum of entred number digits | Practice Questions |
+| [Sum of N natural number](practice%20problems/sum%20of%20n%20natural%20num.cpp) | find the sum of N natural numbers | Practice Quesitons |
+| [Display LL reverse order](practice%20problems/display%20LL%20reverse%20order.cpp) | Code the recursive function and display the LL in reverse order | Practice Questions |
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
