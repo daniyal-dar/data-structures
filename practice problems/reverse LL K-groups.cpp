@@ -24,6 +24,10 @@
  * ======================================================================================
  */
 
+// Note: The required header file (linkedList-singly.h) is not included in this source package. 
+// Please download it from the Implementation section of the repository and place it directly into 
+// your project's root folder to resolve the pre-linked dependencies.
+
 
 #include "linkedList-singly.h"
 #include <iostream>
