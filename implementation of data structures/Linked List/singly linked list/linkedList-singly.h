@@ -38,9 +38,21 @@ public:
     int searchByValue(T value);                    // return the index of the given element
     bool deleteByValue(T value);                   // deletes the nodes of given element
     bool deleteFromPosition(int index);            // delets the node from the given index
+
+	// --- Functions need for the sake of practise questions ---
+	// note that head should be hidden from the user of the class, 
+    // but we need it for the sake of practise questions
+    node<T>* getHead();                            // returns the head of the list
+    void setHead(node<T>* newHead);                // sets the head of the list
 };
 
 // --- Function Definitions ---
+
+template <class T>
+node<T>* LinkedList<T>::getHead()  { return head; }
+
+template<class T>
+void LinkedList<T>::setHead(node<T>* newHead) { head = newHead; }
 
 template <class T>
 LinkedList<T>::LinkedList()
@@ -53,7 +65,7 @@ template <class T>
 LinkedList<T>::~LinkedList()
 {
     if (isEmpty())
-            return; 
+        return;
 
     node<T>* current = head;
     node<T>* nextNode = nullptr;
@@ -220,8 +232,10 @@ void LinkedList<T>::display()
         node<T>* temp = head;
         while (temp != nullptr)
         {
-            cout << "data: " << temp->data << endl;
+            cout << temp->data << " -> ";
             temp = temp->next;
+            if(temp== nullptr)
+				cout << "nullptr" <<endl;
         }
     }
 }
@@ -358,5 +372,4 @@ bool LinkedList<T>::deleteByValue(T value)
     cout << "Value " << value << " not found." << endl;
     return false;
 }
-
 
