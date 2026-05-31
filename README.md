@@ -51,6 +51,7 @@ Use the links below to jump to specific files:
 | [Movie watchList manager](scenario%20based%20questions/watchList%20manager) | Implement the movie watchlist manager using DoublyLL (based on both pointers) | Scenario based Question |
 | [DeleteNode in O1](practice%20problems/delete_node_constant_time.cpp) | code a global function which removes node from the linked list in O1 time complexity | Practice problem |
 | [PalindromeList using stack](practice%20problems/palindrome_usingLL_and%20_stack.cpp) | code a global function which finds the LL is palindrome uising stack and given LL | Practice problem |
+| [Reverse LL in k-groups](practice%20problems/reverse%20LL%20K-groups.cpp) | Given the head of a linked list, reverse the nodes of the list $k$ at a time and return the modified list. If the number of nodes left is smaller than $k$, they are left as-is. | Practise problem
 
 #### 🔄 Recursion Problems
 | Problem Link | Description | Category |
