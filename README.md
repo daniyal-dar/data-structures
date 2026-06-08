@@ -72,6 +72,7 @@ Use the links below to jump to specific files:
 | [Sum of entred number](practice%20problems/sum%20of%20entred%20number.cpp) | find the sum of entred number digits | Practice Questions |
 | [Sum of N natural number](practice%20problems/sum%20of%20n%20natural%20num.cpp) | find the sum of N natural numbers | Practice Quesitons |
 | [Display LL reverse order](practice%20problems/display%20LL%20reverse%20order.cpp) | Code the recursive function and display the LL in reverse order | Practice Questions |
+| [Create Subsets](practice%20problems/subsets.cpp) | Find the susets of the given array of numbers using backtrackng and recursion | Practice Questions |
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
