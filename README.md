@@ -40,12 +40,17 @@ Use the links below to jump to specific files:
 | [Next greater element](scenario%20based%20questions/next_greater_element.cpp) | Find the first greater element to the right for each array element | Scenario based Question |
 | [Infix to pre and post fix conversion](practice%20problems/infix%20conversion.cpp) | Convert standard infix expressions to prefix and postfix notations | Practice Questions |
 | [Reverse Stack](practice%20problems/reverse%20stack.cpp) | Reverse the elements of a stack using recursion or auxiliary space | Practice Questions |
+| [Prefix evaluation](practice%20problems/prefix_evaluation.cpp) | solve the given equation present in the Queue using prefix method  | Practice Qustions |
+| []() |  |  |
+| []() |  |  |
 
 #### 👥 Queue Problems
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
 | [TotalSum of min+max in SlidingWindow](scenario%20based%20questions/sliding_window_min_max.cpp) | Calculate the sum of minimum and maximum elements in every subarray of size k | Scenario based Question |
 | [Airport security destribution](scenario%20based%20questions/airport_security_distribution.cpp) | distribute the load in different queues according to given condition | Scenarion based Question |
+| [Remove dublication](practice%20problems/remove_duplicates_queue.cpp) | remove dublication from the queue while following the constrains | prctice problems |
+| [Reverse Queeu](practice%20problems/reverse_queue.cpp) | reverse the queue by using only the memberfunctions of queue and two extra queue obj | Practice Questions |
 
 
 #### 🔗 Linked List Problems
@@ -58,6 +63,7 @@ Use the links below to jump to specific files:
 | [PalindromeList using stack](practice%20problems/palindrome_usingLL_and%20_stack.cpp) | code a global function which finds the LL is palindrome uising stack and given LL | Practice problem |
 | [Reverse LL in k-groups](practice%20problems/reverse%20LL%20K-groups.cpp) | Given the head of a linked list, reverse the nodes of the list $k$ at a time and return the modified list. If the number of nodes left is smaller than $k$, they are left as-is. | Practise problem
 | [Lottery winner check](scenario%20based%20questions/lottery_winner_check.cpp) | find the lottery winner and there prize money according to the given conditions | Scenario based Questions |
+| [Sort linkedlist](practice%20problems/sort_linked_list.cpp) | sort the linkedlist, using only member functions of LL and one extrea obj of the LL | Practice problems |
 
 
 #### 🔄 Recursion Problems
