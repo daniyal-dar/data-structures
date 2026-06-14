@@ -45,6 +45,8 @@ Use the links below to jump to specific files:
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
 | [TotalSum of min+max in SlidingWindow](scenario%20based%20questions/sliding_window_min_max.cpp) | Calculate the sum of minimum and maximum elements in every subarray of size k | Scenario based Question |
+| [Airport security destribution](scenario%20based%20questions/airport_security_distribution.cpp) | distribute the load in different queues according to given condition | Scenarion based Question |
+
 
 #### 🔗 Linked List Problems
 | Problem Link | Description | Category |
@@ -55,6 +57,8 @@ Use the links below to jump to specific files:
 | [DeleteNode in O1](practice%20problems/delete_node_constant_time.cpp) | code a global function which removes node from the linked list in O1 time complexity | Practice problem |
 | [PalindromeList using stack](practice%20problems/palindrome_usingLL_and%20_stack.cpp) | code a global function which finds the LL is palindrome uising stack and given LL | Practice problem |
 | [Reverse LL in k-groups](practice%20problems/reverse%20LL%20K-groups.cpp) | Given the head of a linked list, reverse the nodes of the list $k$ at a time and return the modified list. If the number of nodes left is smaller than $k$, they are left as-is. | Practise problem
+| [Lottery winner check](scenario%20based%20questions/lottery_winner_check.cpp) | find the lottery winner and there prize money according to the given conditions | Scenario based Questions |
+
 
 #### 🔄 Recursion Problems
 | Problem Link | Description | Category |
