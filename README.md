@@ -50,7 +50,7 @@ Use the links below to jump to specific files:
 | [TotalSum of min+max in SlidingWindow](scenario%20based%20questions/sliding_window_min_max.cpp) | Calculate the sum of minimum and maximum elements in every subarray of size k | Scenario based Question |
 | [Airport security destribution](scenario%20based%20questions/airport_security_distribution.cpp) | distribute the load in different queues according to given condition | Scenarion based Question |
 | [Remove dublication](practice%20problems/remove_duplicates_queue.cpp) | remove dublication from the queue while following the constrains | prctice problems |
-| [Reverse Queeu](practice%20problems/reverse_queue.cpp) | reverse the queue by using only the memberfunctions of queue and two extra queue obj | Practice Questions |
+| [Reverse Queue](practice%20problems/reverse_queue.cpp) | reverse the queue by using only the memberfunctions of queue and two extra queue obj | Practice Questions |
 
 
 #### 🔗 Linked List Problems
