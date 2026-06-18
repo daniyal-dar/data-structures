@@ -85,6 +85,11 @@ Use the links below to jump to specific files:
 | [Display LL reverse order](practice%20problems/display%20LL%20reverse%20order.cpp) | Code the recursive function and display the LL in reverse order | Practice Questions |
 | [Create Subsets](practice%20problems/subsets.cpp) | Find the susets of the given array of numbers using backtrackng and recursion | Practice Questions |
 
+#### BST Problems
+| Problem Link | Description | Category |
+| :--- | :--- | :--- |
+| [**BST** to linkedlist data storage](scenario%20based%20questions/store%20data%20from%20Bst%20to%20linkedlist) | store data located in the BST tree into linkedlist | Scenario based Question |
+
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
 1. **Fork** the repository.
