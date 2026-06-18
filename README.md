@@ -98,6 +98,13 @@ Use the links below to jump to specific files:
 | :--- | :--- | :--- |
 | [**Hash** insertion and lookup within class](practice%20problems/hash%20insertion%20and%20searching) | Implement employee record insertion, searching, and traversal using unordered_map  | Practice Problem |
 
+#### Heap Problem
+| Problem Link | Description | Category |
+| :--- | :--- | :--- |
+| [**Heap** heapify up recursively](practice%20problems/heapify%20up%20recursively.cpp) | code the function which performs the heapify up recursively | Practice Problem |
+| [**Heap** heapify down recursively](practice%20problems/heapify%20down%20recursively.cpp) | code the function which performs the heapify down recursively | Practice Problem |
+
+
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
 1. **Fork** the repository.
