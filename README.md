@@ -64,6 +64,7 @@ Use the links below to jump to specific files:
 | [Reverse LL in k-groups](practice%20problems/reverse%20LL%20K-groups.cpp) | Given the head of a linked list, reverse the nodes of the list $k$ at a time and return the modified list. If the number of nodes left is smaller than $k$, they are left as-is. | Practise problem
 | [Lottery winner check](scenario%20based%20questions/lottery_winner_check.cpp) | find the lottery winner and there prize money according to the given conditions | Scenario based Questions |
 | [Sort linkedlist](practice%20problems/sort_linked_list.cpp) | sort the linkedlist, using only member functions of LL and one extrea obj of the LL | Practice problems |
+| [Reverse **linkedList** iteratively](practice%20problems/reverse%20LL%20iteratively.cpp) | code the fuction to reverse the linkedlist where the access to headpointer is given and the function is the member function of the LL class | Practice Problem |
 
 
 #### 🔄 Recursion Problems
