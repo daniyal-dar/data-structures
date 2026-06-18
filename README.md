@@ -89,6 +89,9 @@ Use the links below to jump to specific files:
 | Problem Link | Description | Category |
 | :--- | :--- | :--- |
 | [**BST** to linkedlist data storage](scenario%20based%20questions/store%20data%20from%20Bst%20to%20linkedlist) | store data located in the BST tree into linkedlist | Scenario based Question |
+| [**BST** recursive insertion](practice%20problems/BST%20recursive%20insertion.cpp) | insert data in Binary search tree recursively  | Practice problem |
+| [**BST** recursive search](practice%20problems/BST%20recursive%20search.cpp) | Search data from Binary Search tree recursively | Practice problem |
+| [**BST** recursively Find identical tree](practice%20problems/find%20identical%20BST.cpp) | Find identical tree in terms of both values and structure | Practice problem |
 
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
