@@ -93,6 +93,11 @@ Use the links below to jump to specific files:
 | [**BST** recursive search](practice%20problems/BST%20recursive%20search.cpp) | Search data from Binary Search tree recursively | Practice problem |
 | [**BST** recursively Find identical tree](practice%20problems/find%20identical%20BST.cpp) | Find identical tree in terms of both values and structure | Practice problem |
 
+#### Hash Table Problem
+| Problem Link | Description | Category |
+| :--- | :--- | :--- |
+| [**Hash** insertion and lookup within class](practice%20problems/hash%20insertion%20and%20searching) | Implement employee record insertion, searching, and traversal using unordered_map  | Practice Problem |
+
 ## 🤝 How to Contribute
 Contributions are welcome! If you want to add a new data structure or any practice question follow the given steps:
 1. **Fork** the repository.
